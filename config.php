@@ -5,11 +5,11 @@ header('Access-Control-Allow-Headers: Content-Type');
 header('Content-Type: application/json');
 
 
-define('DB_HOST', 'sql113.infinityfree.com');
-define('DB_USER', 'if0_40791412');
-define('DB_PASS', 'fW96u5Ke4ZF4');
-define('DB_NAME', 'if0_40791412_salon_booking');
-define('DB_PORT', 3306);
+define('DB_HOST', 'shortline.proxy.rlwy.net');
+define('DB_USER', 'root');
+define('DB_PASS', 'CxCsEJsoMZvWNCxsoSjMUCAPjEwSWcvy');
+define('DB_NAME', 'railway');
+define('DB_PORT', 15698);
 
 
 function getDBConnection() {
